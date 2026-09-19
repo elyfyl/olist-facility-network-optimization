@@ -2,6 +2,9 @@
 
 Bu proje, Brezilya merkezli e-ticaret platformu Olist'in gerçek veri setini kullanarak, ülkedeki lojistik ağını optimize etmeyi amaçlayan uçtan uca bir **Yöneylem Araştırması** ve **Veri Analitiği** çalışmasıdır. 
 
+Descriptive raporlamanın ötesine geçerek, optimizasyona dayalı prescriptive stratejiler üretebilmek modern veri biliminin en kritik yetkinliğidir. Bu vizyonla geliştirilen modelimiz; tedarik zincirindeki depolama ve nakliye maliyetlerini matematiksel olarak minimize etmek amacıyla **Capacitated Facility Location** problemini Karışık Tamsayılı Doğrusal Programlama (MILP) mimarisiyle çözmektedir.
+
+
 Veri rollerinde sadece "geçmişte ne olduğunu" raporlamak değil, "gelecekte ne yapmalıyız" sorusunu cevaplayabilmek kritik bir yetenektir. Bu doğrultuda modelimiz; depolama ve nakliye maliyetlerini minimize etmek için **Kapasiteli Tesis Yeri Seçimi** problemini Karışık Tamsayılı Doğrusal Programlama (MILP) ile çözmektedir.
 
 ## 🛠️ Kullanılan Teknolojiler
