@@ -1,0 +1,14 @@
+# Veri dosyalari ve Veritabanlari
+data/
+*.db
+*.sqlite
+*.csv
+
+# Python onbellek ve sanal ortam dosyalari
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+.venv/
+env/
