@@ -18,7 +18,7 @@ Veri rollerinde sadece "geçmişte ne olduğunu" raporlamak değil, "gelecekte n
 2. **Karar Değişkenleri:** 
    * **Depo açılış kararı ($y_j$):** $j$ eyaletinde depo açılmalı mı? (Binary)
    * **Atama kararı ($x_{ij}$):** $j$ deposundan $i$ eyaletine ne kadar ürün gönderilmeli? (Continuous)
-3. **Kısıtlar (Constraints):**
+3. **Kısıtlar:**
    * Her eyaletin talebi tam olarak karşılanmalıdır.
    * Kapalı depodan gönderim yapılamaz.
    * **Kapasite Kısıtı:** Bir depodan çıkan ürün miktarı, o deponun belirlenen maksimum kapasitesini aşamaz.
@@ -29,7 +29,7 @@ Veri rollerinde sadece "geçmişte ne olduğunu" raporlamak değil, "gelecekte n
 ## 📊 Optimizasyon Aşamaları ve Bulgular
 
 ### 1. Sınırsız Kapasiteli Temel Model 
-İlk aşamada model, 27 aday lokasyon arasından **11 stratejik dağıtım merkezi** (SP, RJ, MG, RS, PR, SC, BA, DF, PE, MT, MA) seçmiştir. Yüksek talebe sahip sanayi eyaletlerinde yerel merkezler açılırken, uzak coğrafyalarda nakliye maliyetini engellemek adına bölgesel merkezler (hub) kurulmuştur. Toplam maliyet **7.82 Milyon** birim olarak gerçekleşmiştir.
+İlk aşamada model, 27 aday lokasyon arasından **11 stratejik dağıtım merkezi** (SP, RJ, MG, RS, PR, SC, BA, DF, PE, MT, MA) seçmiştir. Yüksek talebe sahip sanayi eyaletlerinde yerel merkezler açılırken, uzak coğrafyalarda nakliye maliyetini engellemek adına bölgesel merkezler kurulmuştur. Toplam maliyet **7.82 Milyon** birim olarak gerçekleşmiştir.
 
 ![Temel Model Çözümü](images/facility_selection_solution.png)
 ![Lojistik Ağ Haritası](images/network_map.png)
