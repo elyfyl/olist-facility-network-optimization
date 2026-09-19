@@ -1,6 +1,6 @@
 # 📦 Olist Supply Chain Network Optimization (MILP)
 
-Bu proje, Brezilya merkezli e-ticaret platformu Olist'in gerçek veri setini kullanarak, ülkedeki lojistik ağını optimize etmeyi amaçlayan uçtan uca bir **Yöneylem Araştırması** ve **Veri Analitiği** çalışmasıdır.
+Bu proje, Brezilya merkezli e-ticaret platformu Olist'in gerçek veri setini kullanarak, ülkedeki lojistik ağını optimize etmeyi amaçlayan uçtan uca bir **Yöneylem Araştırması** ve **Veri Analitiği** çalışmasıdır. 
 
 Veri rollerinde sadece "geçmişte ne olduğunu" raporlamak değil, "gelecekte ne yapmalıyız" sorusunu cevaplayabilmek kritik bir yetenektir. Bu doğrultuda modelimiz; depolama ve nakliye maliyetlerini minimize etmek için **Kapasiteli Tesis Yeri Seçimi** problemini Karışık Tamsayılı Doğrusal Programlama (MILP) ile çözmektedir.
 
