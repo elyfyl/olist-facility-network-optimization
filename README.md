@@ -33,16 +33,20 @@ Veri rollerinde sadece "geçmişte ne olduğunu" raporlamak değil, "gelecekte n
 
 ### 1. Sınırsız Kapasiteli Temel Model 
 İlk aşamada model, 27 aday lokasyon arasından **11 stratejik dağıtım merkezi** (SP, RJ, MG, RS, PR, SC, BA, DF, PE, MT, MA) seçmiştir. Yüksek talebe sahip sanayi eyaletlerinde yerel merkezler açılırken, uzak coğrafyalarda nakliye maliyetini engellemek adına bölgesel merkezler kurulmuştur. Toplam maliyet **7.82 Milyon** birim olarak gerçekleşmiştir.
+<p align="center">
+  <img src="images/facility_selection_solution.png" width="450">
+</p>
 
-![Temel Model Çözümü](images/facility_selection_solution.png)
 ![Lojistik Ağ Haritası](images/network_map.png)
 *(Not: İnteraktif haritayı incelemek için repodaki `images/network_map.html` dosyasını tarayıcınızda açabilirsiniz.)*
 
 ### 2. Kapasiteli Tesis Yeri Seçimi
 Gerçek dünya kısıtları gereği her depoya maksimum **20.000 sipariş** işleme kapasitesi sınırı getirilmiştir. 
 Kapasite kısıtı eklendiğinde; Sao Paulo (SP), Rio de Janeiro (RJ) ve Parana (PR) depoları %100 doluluğa ulaşmıştır. Model, kapasite darboğazını aşmak için Espirito Santo (ES) gibi yeni lokasyonlarda mecburen depo açarak **toplam depo sayısını 12'ye** çıkarmış ve maliyet **13.56 Milyon** birime yükselmiştir.
+<p align="center">
+  <img src="images/capacitated_facility_solution.png" width="450">
+</p>
 
-![Kapasiteli Çözüm](images/capacitated_facility_solution.png)
 ![Kapasiteli Ağ Haritası](images/capacitated_network_map.png)
 *(Not: İnteraktif haritayı incelemek için repodaki `images/capacitated_network_map.html` dosyasını tarayıcınızda açabilirsiniz.)*
 
@@ -56,13 +60,17 @@ Yöneylem araştırması modellerinin dalgalanmalara karşı dayanıklılığın
 Kampanya döneminde tüm ülke genelinde **taleplerin %30 arttığı** varsayılmıştır. 
 Sadece SP ve RJ değil, Minas Gerais (MG) ve Santa Catarina (SC) depoları da tam kapasiteye ulaşmıştır. Dev yükü hafifletmek için Ceara (CE) ve Para (PA) eyaletlerinde yeni depolar açılmış, **depo sayısı 13'e** ve maliyet **19.09 Milyon** seviyesine fırlamıştır. Model yoğun kampanya krizini başarıyla çözmüştür.
 
-![Talep Artışı Senaryosu](images/scenario_analysis_solution.png)
+<p align="center">
+  <img src="images/scenario_analysis_solution.png" width="450">
+</p>
 
 ### B) Yakıt Şoku Senaryosu (Nakliye Maliyeti Artışı)
 Lojistik kriz simülasyonu olarak **birim nakliye maliyeti 3 katına** çıkarılmıştır.
 Nakliye inanılmaz pahalandığı için model, uzak mesafelere sevkiyat yapmaktan kaçınmıştır. Bunun yerine sabit kurulum maliyetini gözden çıkararak Rondonia (RO), Mato Grosso do Sul (MS) ve Goias (GO) gibi **lokal depolar açmaya yönelmiş**, depo sayısını **17'ye çıkararak** kriz stratejisini tamamen değiştirmiştir.
 
-![Yakıt Şoku Senaryosu](images/fuel_shock_solution.png)
+<p align="center">
+  <img src="images/fuel_shock_solution.png" width="450">
+</p>
 
 ---
 
